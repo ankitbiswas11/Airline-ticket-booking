@@ -179,3 +179,21 @@ nav ul li a{
     padding-bottom: 10px;
     text-align: center;
 }
+
+/* *******************add********************* */
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: none;
+  place-items: center;
+  z-index: 9999;
+}
+.modal-content {
+  padding: 10px;
+  border-radius: 8px;
+}
+video {
+  width: 700px;
+}

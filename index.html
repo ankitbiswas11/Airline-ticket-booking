@@ -6,6 +6,7 @@
     <title> booking.com </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
 </head>
 <body>
 
@@ -13,7 +14,7 @@
 
     <nav>
         
-        <img src="airplane-fly.jpg" class="logo">
+        <img src="airplane-fly.jpg" class="logo" title="ar">
         <h3>Indi <h1>Go</h1></h3>
         <ul>
             <li><a href="#">Home</a></li>
@@ -58,6 +59,17 @@
     </div>
 
 </div>
+
+<!-- **********************add********************* -->
+
+<div id="adModal" class="modal">
+        <div class="modal-content">
+            <button onclick="closeAd()">✖</button>
+            <video id="adVideo" muted>
+                <source src="videoplayback.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
     
 </body>
 </html>
